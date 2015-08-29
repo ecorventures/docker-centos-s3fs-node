@@ -1,7 +1,7 @@
 FROM ecor/centos-s3fs
 MAINTAINER Corey Butler <corey@coreybutler.com> (goldglovecb)
 
-ENV NODEJS 0.12.4
+ENV NODEJS 0.12.7
 
 # Add Fuse & S3 support
 RUN yum -y install epel-release
